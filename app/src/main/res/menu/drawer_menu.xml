@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_driver_standings"
+            android:icon="@drawable/ic_helmet"
+            android:title="Driver Standings"/>
+
+        <item android:id="@+id/nav_highlights"
+            android:icon="@drawable/ic_star"
+            android:title="Highlights"/>
+
+        <item android:id="@+id/nav_records"
+            android:icon="@drawable/ic_driver_standings"
+            android:title="Records"/>
+
+        <item android:id="@+id/nav_cars"
+            android:icon="@drawable/ic_speed"
+            android:title="Cars"/>
+
+        <item android:id="@+id/nav_driver_team_radios"
+            android:icon="@drawable/ic_radio"
+            android:title="Team Radio"/>
+    </group>
+
+    <item android:title="Spread the Joy!">
+        <menu>
+            <item android:id="@+id/nav_gift"
+                android:icon="@drawable/ic_store"
+                android:title="Gift"/>
+
+            <item android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Share"/>
+        </menu>
+    </item>
+</menu>
+
